@@ -1,0 +1,191 @@
+
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header img {
+    width: 90px;
+    /* ajuste conforme necessário */
+    height: auto;
+    transform: translate(-60%, -10%);
+
+
+    position: absolute;
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% da altura da viewport */
+}
+
+.item {
+    width: 80%; /* Ajuste conforme necessário */
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.text {
+    margin-bottom: 10px;
+}
+
+h1{
+    font-family: 'rush';
+font-family: 23px
+;
+}
+
+h2{
+    font-family: 'inter';
+font-size: 14px;
+}
+
+.price{
+    color: green;
+    font-family: 'rush';
+}
+
+footer img {
+
+    height: auto;
+    width: 90px;
+    /* ajuste conforme necessário */
+    height: auto;
+    transform: translate(-50%, -100%);
+
+
+    position: absolute;
+
+
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+footer button {
+
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: #fff;
+    color: #000000;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+:hover footer button {
+    background-color: #EFC204;
+
+}
+
+.textbranco {
+    margin-top: 50px;
+    font-family: 'inter';
+    font-size: 10px;
+}
+
+.textamarelo {
+    font-family: 'inter';
+    color: #EFC204;
+    font-size: 20px;
+
+}
+
+.textamarelo2 {
+    font-family: 'inter';
+    color: #EFC204;
+    font-size: 15px;
+
+}
+
+.link-container {
+    text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    
+
+}
+
+.link {
+    color: grey;
+    display: block;
+    margin-bottom: 10px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999999; /* Certifique-se de que o popup está acima de outros elementos */
+}
+
+.popup-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 1.25rem;
+    z-index: 999999;
+    border-radius: 0.3125rem;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+}
+
+.popup-conteudo h2 {
+    text-align: center;
+}
+
+.popup-conteudo label {
+    display: flex;
+    margin-top: 10px;
+}
+
+.popup-conteudo input {
+    width: 80%;
+    border: 1px solid rgb(206, 206, 211);
+    background-color: rgb(206, 206, 211);
+    border-radius: 10px;
+    padding: 8px;
+   
+   
+    margin-top: 5px;
+}
+h3{
+    font-size: 28px;
+    font-family: 'rush';
+    justify-content: center;
+}
+@font-face {
+    font-family: 'rush';
+    src: url(IntroRust-Base.otf);
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+}
